@@ -1,0 +1,14 @@
+.card{
+    box-shadow: 0 6px 20px 0 rgba(30, 22, 56, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 2px;
+    opacity: 50%;
+    &:hover{
+        opacity: 100%;
+    }
+}
